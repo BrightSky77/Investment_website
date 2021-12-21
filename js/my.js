@@ -110,13 +110,6 @@
     
     
     
-    // var nextButton = document.querySelectorAll(".question-two");
-    // for (var i = 0; i < nextButton.length; i++){
-    //     nextButton[i].addEventListener("click",handleNextButtonClick);
-    // }
- 
-
-    // let all2= document.querySelectorAll(".question-two").forEach(x=> x.onclick = handleNextButtonClick);
 
    
     
@@ -266,10 +259,4 @@
         const sl = parseFloat(document.querySelector("." + parent1 + " .sl" ).value);
         document.querySelector("." + parent1_1 + " .rr").innerHTML =  "1 : " + (ress/sl).toPrecision(4);
         }
-    /*https://stackoverflow.com/questions/41531433/how-to-use-the-same-js-for-same-html-multiple-times*/
-
-
-    
- 
-    
-    /* https://www.w3resource.com/javascript-exercises/javascript-basic-exercise-10.php */
+  
